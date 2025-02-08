@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(45deg,#ff9ff3,#f368e0);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+img{
+    mix-blend-mode: darken;
+}
+
+#image{
+    width: 220px;
+
+}
+
+#textArea{
+    font-size: larger;
+}
+
+.buttons{
+    display: flex;
+    gap: 50px;
+    
+
+}
+#yesBtn{
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 3px 4px 2px gray;
+    
+
+}
+
+#noBtn{
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 3px 4px 2px gray;
+}
